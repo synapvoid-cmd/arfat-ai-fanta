@@ -27,7 +27,7 @@ export default function Nav() {
             <path d="M12 2c3 3 5 6 5 9.5A5 5 0 0 1 7 11.5C7 8 9 5 12 2Z" />
           </svg>
         </span>
-        <span className="font-display text-2xl tracking-wide text-white">ARFAT AI</span>
+        <span className="font-display text-2xl tracking-wide text-white">FANTA</span>
       </div>
 
       {/* desktop nav links */}

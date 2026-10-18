@@ -206,7 +206,7 @@ export default function CanPlayer({ scrollProgress, flavorFolder, glowColor }: C
           {!ready && (
             <Image
               src={FRAME_PATH(flavorFolder, 0)}
-              alt="Arfat AI can"
+              alt="Fanta can"
               fill
               priority
               sizes="(max-width: 768px) 60vw, 30vw"

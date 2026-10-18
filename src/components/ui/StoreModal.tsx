@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useUI } from "@/context/UIContext";
 
 const STORES = [
-  { name: "Arfat AI Flagship Store",  address: "123 Market St, São Paulo", km: "0.8 km", open: true  },
+  { name: "Fanta Flagship Store",  address: "123 Market St, São Paulo", km: "0.8 km", open: true  },
   { name: "QuickMart Express",     address: "45 Av. Paulista, São Paulo", km: "1.4 km", open: true  },
   { name: "FreshStop Supermarket", address: "78 Rua Augusta, São Paulo",  km: "2.1 km", open: false },
   { name: "CoolDrinks Outlet",     address: "200 Av. Brasil, São Paulo",  km: "3.3 km", open: true  },

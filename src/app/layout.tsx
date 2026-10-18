@@ -19,7 +19,7 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-  title: "Arfat AI — Guaraná Zero Sugar",
+  title: "Fanta Guaraná Zero Sugar",
   description: "Bold guaraná taste. Zero sugar. Feel the rush.",
 };
 

@@ -61,7 +61,7 @@ export default function HeroContent({ flavor, activeDot, onPrev, onNext, onSetFl
           className="block text-[2.2rem] text-white sm:text-[clamp(2.8rem,7vw,5.5rem)]"
           style={{ WebkitTextStroke: `2px ${flavor.stroke}`, paintOrder: "stroke fill" }}
         >
-          ARFAT AI
+          FANTA
         </span>
         <span
           className="block text-[1.25rem] transition-colors duration-700 sm:text-[clamp(1.4rem,3.4vw,2.75rem)]"

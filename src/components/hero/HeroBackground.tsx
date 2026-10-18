@@ -70,9 +70,9 @@ export default function HeroBackground({ scrollProgress, flavor }: HeroBackgroun
       >
         <motion.span
           style={{ y: typeY, opacity: typeOpacity }}
-          className="font-display whitespace-nowrap text-[20vw] leading-none text-white sm:text-[19vw] lg:text-[17vw]"
+          className="font-display whitespace-nowrap text-[26vw] leading-none text-white sm:text-[24vw] lg:text-[22vw]"
         >
-          ARFAT AI
+          FANTA
         </motion.span>
       </div>
 

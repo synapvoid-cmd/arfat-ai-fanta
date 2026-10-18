@@ -19,7 +19,7 @@ const PILLARS = [
   {
     icon: "◈",
     title: "Zero Compromise",
-    body: "Removed the sugar, kept the rush. Every sip is the full bold Arfat AI taste.",
+    body: "Removed the sugar, kept the rush. Every sip is the full bold Fanta taste.",
   },
   {
     icon: "◇",
@@ -37,9 +37,9 @@ export default function StorySection() {
     <section id="promise" ref={ref} className="relative overflow-hidden bg-[#050505] py-12 px-5 sm:py-28 sm:px-10 lg:px-16">
       <div
         aria-hidden
-        className="pointer-events-none absolute -right-10 top-1/2 -translate-y-1/2 select-none font-display text-[24vw] leading-none text-white/[0.02] sm:text-[13vw]"
+        className="pointer-events-none absolute -right-10 top-1/2 -translate-y-1/2 select-none font-display text-[32vw] leading-none text-white/[0.02] sm:text-[20vw]"
       >
-        ARFAT AI
+        FANTA
       </div>
 
       <div className="relative z-10 mx-auto max-w-7xl">
@@ -91,7 +91,7 @@ export default function StorySection() {
               <span className="text-white/30">Nothing held back.</span>
             </h2>
             <p className="max-w-sm text-base leading-relaxed text-white/50">
-              Arfat AI Guaraná Zero was built for people who refuse to choose between great taste and a cleaner lifestyle.
+              Fanta Guaraná Zero was built for people who refuse to choose between great taste and a cleaner lifestyle.
             </p>
             <button
               onClick={() => document.getElementById("flavors")?.scrollIntoView({ behavior: "smooth" })}

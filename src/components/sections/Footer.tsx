@@ -1,6 +1,6 @@
 const NAV = [
   { heading: "Products", links: ["Guaraná Zero", "Blue Citrus", "Strawberry", "Grape", "Tutti Frutti"] },
-  { heading: "Company",  links: ["About Arfat AI", "Sustainability", "Press", "Careers"] },
+  { heading: "Company",  links: ["About Fanta", "Sustainability", "Press", "Careers"] },
   { heading: "Support",  links: ["Find a Store", "FAQ", "Contact Us", "Wholesale"] },
 ];
 
@@ -36,7 +36,7 @@ export default function Footer() {
                 <path d="M12 2c3 3 5 6 5 9.5A5 5 0 0 1 7 11.5C7 8 9 5 12 2Z" />
               </svg>
             </span>
-            <span className="font-display text-2xl tracking-wide text-white">ARFAT AI</span>
+            <span className="font-display text-2xl tracking-wide text-white">FANTA</span>
           </div>
           {/* social icons */}
           <div className="flex gap-2">
@@ -54,7 +54,7 @@ export default function Footer() {
 
         {/* ── tagline (mobile only) ── */}
         <p className="mb-8 text-sm leading-relaxed text-white/45 sm:hidden">
-          Bold guaraná taste. Five flavors. Zero sugar — just the full Arfat AI rush.
+          Bold guaraná taste. Five flavors. Zero sugar — just the full Fanta rush.
         </p>
 
         {/* ── nav columns ── */}
@@ -62,7 +62,7 @@ export default function Footer() {
         <div className="mb-8 grid grid-cols-3 gap-4 sm:mb-12 sm:grid-cols-[1.2fr_repeat(3,1fr)]">
           {/* brand copy — desktop only */}
           <p className="hidden text-sm leading-relaxed text-white/45 sm:block">
-            Bold Amazonian guaraná taste. Five vibrant flavors. Zero sugar, zero compromise — just the full Arfat AI rush.
+            Bold Amazonian guaraná taste. Five vibrant flavors. Zero sugar, zero compromise — just the full Fanta rush.
           </p>
 
           {NAV.map((col) => (
@@ -86,7 +86,7 @@ export default function Footer() {
         {/* ── bottom legal row ── */}
         <div className="flex flex-col gap-3 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-white/30">
-            © {new Date().getFullYear()} Arfat AI Guaraná Zero Sugar. All rights reserved.
+            © {new Date().getFullYear()} Fanta Guaraná Zero Sugar. All rights reserved.
           </p>
           <div className="flex flex-wrap gap-4">
             {["Privacy Policy", "Terms of Use", "Cookie Settings"].map((l) => (

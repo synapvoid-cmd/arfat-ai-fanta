@@ -75,7 +75,7 @@ export const FLAVORS: FlavorConfig[] = [
     name: "Grape",
     label: "Grape",
     description:
-      "Deep, dark grape burst — lush and bold with the full Arfat AI Grape experience, zero sugar.",
+      "Deep, dark grape burst — lush and bold with the full Fanta Grape experience, zero sugar.",
     frameFolder: "purple",
     bgGradient:
       "linear-gradient(135deg, #1A0040 0%, #2D006B 35%, #380080 60%, #100030 100%)",
